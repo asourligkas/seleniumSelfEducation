@@ -2,8 +2,6 @@ from selenium import webdriver
 from time import sleep
 import os
 
-#This test contains:
-
 # define chromedriver path
 chromedriver_path = os.path.abspath('../../drivers') + '\chromedriver_win32\chromedriver.exe'
 

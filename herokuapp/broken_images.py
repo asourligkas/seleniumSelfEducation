@@ -1,6 +1,5 @@
 from selenium import webdriver
 import requests
-from time import sleep
 import os
 
 # define chromedriver path
@@ -23,4 +22,5 @@ for image in images:
     if r.status_code != 200:
         print(image.get_attribute("src"), "not available!")
 
+# Close driver
 driver.close()

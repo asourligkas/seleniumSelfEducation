@@ -1,8 +1,5 @@
 from selenium import webdriver
-from time import sleep
 import os
-
-#This test contains:
 
 # define chromedriver path
 chromedriver_path = os.path.abspath('../../drivers') + '\chromedriver_win32\chromedriver.exe'
@@ -25,5 +22,6 @@ header_text = driver.find_element_by_xpath("//div[@class='example']/h3").text
 expected_header = "Basic Auth"
 assert expected_header == header_text
 
+# Close driver
 driver.close()
 # Is there a better way?

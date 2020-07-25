@@ -2,10 +2,6 @@ from selenium import webdriver
 from time import sleep
 import os
 
-#This test contains:
-#1. Locator using linktext and href
-#2. text assertion, especially when test is dynamic
-
 # define chromedriver path
 chromedriver_path = os.path.abspath('../../drivers') + '\chromedriver_win32\chromedriver.exe'
 
