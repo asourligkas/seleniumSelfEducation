@@ -6,7 +6,7 @@ import os
 chromedriver_path = os.path.abspath('../../drivers') + '\chromedriver_win32\chromedriver.exe'
 
 # create a chrome (driver)
-driver = webdriver.Chrome('C:/Selenium/chromedriver.exe')
+driver = webdriver.Chrome('C:/bin/chromedriver.exe')
 
 # Open portal and maximize window
 driver.get("https://the-internet.herokuapp.com/")
